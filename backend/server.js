@@ -2,6 +2,8 @@ const express = require("express");
 const connectDB = require("./db/config");
 const routes = require("./routes/routes");
 require("dotenv").config();
+const cors = require('cors')
+
 
 // const productData = require('../ProductData');
 // const PRODUCTS = require('./model/productSchema');
@@ -10,6 +12,10 @@ const stripe = require("stripe")(process.env.STRIPE.toString());
 
 const app = express();
 const PORT = process.env.PORT;
+
+app.use(cors({
+  origin : "*"
+}))
 
 
 const startConnection = async () => {
