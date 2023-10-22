@@ -2,7 +2,6 @@ const express = require("express");
 const connectDB = require("./db/config");
 const routes = require("./routes/routes");
 require("dotenv").config();
-const cors = require("cors");
 
 // const productData = require('../ProductData');
 // const PRODUCTS = require('./model/productSchema');
@@ -12,11 +11,6 @@ const stripe = require("stripe")(process.env.STRIPE.toString());
 const app = express();
 const PORT = process.env.PORT;
 
-app.use(
-  cors({
-    origin: "*",
-  })
-);
 
 const startConnection = async () => {
   try {
@@ -40,11 +34,11 @@ const path = require('path')
 if(process.env.NODE_ENV==='production')
 {
 
-    app.use('/' , express.static('client/build'))
+    app.use('/' , express.static('backend/build'))
 
     app.get('*' , (req , res)=>{
 
-          res.sendFile(path.resolve(__dirname, 'client/build/index.html'));
+          res.sendFile(path.resolve(__dirname, 'backend/build/index.html'));
 
     })
 
