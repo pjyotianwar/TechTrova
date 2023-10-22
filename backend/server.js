@@ -50,8 +50,6 @@ if(process.env.NODE_ENV==='production')
 
 }
 
-startConnection();
-
 app.use(express.json());
 app.use("/", routes);
 
@@ -79,3 +77,7 @@ app.post("/api/create-checkout-session", async (req, res) => {
   });
   res.json({ id: session.id });
 });
+
+app.get('/', (req, res) => res.send('Hello World!'))
+
+startConnection();
