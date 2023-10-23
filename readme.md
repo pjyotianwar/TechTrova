@@ -48,27 +48,27 @@ npm run dev
 
 - `frontend`: Contains the React.js frontend of the project.
 - `backend`: Contains the Node.js and Express.js backend of the project.
-- `Images`: Contains screeenshots of the project.<img width="1440" alt="TechTrova8" src="https://github.com/pjyotianwar/TechTrova/assets/70092582/ce4421dc-f4c3-4d9b-b504-f156e843296d">
+- `Images`: Contains screeenshots of the project.
 
 
 ## Screenshots
 
 <img width="1440" alt="TechTrova1" src="https://github.com/pjyotianwar/TechTrova/assets/70092582/fbbd347b-47b9-4d3a-aec3-d0c32359ab86">
-
+<br><br>
 <img width="1440" alt="TechTrova2" src="https://github.com/pjyotianwar/TechTrova/assets/70092582/59bb9ecb-2e0f-4ba7-b992-5b9154319e78">
-
+<br><br>
 <img width="1440" alt="TechTrova3" src="https://github.com/pjyotianwar/TechTrova/assets/70092582/70965f6a-075d-4f6a-8540-58bc9f9fc9ac">
-
+<br><br>
 <img width="1440" alt="TechTrova4" src="https://github.com/pjyotianwar/TechTrova/assets/70092582/4420be86-a8d4-4d7a-91f9-41c65c77a0af">
-
+<br><br>
 <img width="1440" alt="TechTrova5" src="https://github.com/pjyotianwar/TechTrova/assets/70092582/c5a0f478-0580-4f3d-8a8c-b70f2b715e30">
-
+<br><br>
 <img width="1440" alt="TechTrova6" src="https://github.com/pjyotianwar/TechTrova/assets/70092582/2424d30e-5794-4cad-aa53-331e5b5f16df">
-
+<br><br>
 <img width="1440" alt="TechTrova7" src="https://github.com/pjyotianwar/TechTrova/assets/70092582/e3299f1a-28e8-47af-a407-02843163f374">
-
+<br><br>
 <img width="1440" alt="TechTrova8" src="https://github.com/pjyotianwar/TechTrova/assets/70092582/091ae64d-6f95-404b-8820-cfa9a3177856">
-
+<br><br>
 
 ## Contributing
 
