@@ -23,7 +23,7 @@ function Product() {
     const token = localStorage.getItem("token");
 
     axios
-      .get("/dashboard", {
+      .get("https://tech-trova.vercel.app/dashboard", {
         headers: {
           Authorization: `Bearer ${token}`,
         },

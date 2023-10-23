@@ -84,7 +84,7 @@ export default function SearchAppBar() {
     };
 
     axios
-      .post("/search", data)
+      .post("https://tech-trova.vercel.app/search", data)
       .then((response) => {
         setdata(response.data.data);
         console.log(response.data.data);

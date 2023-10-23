@@ -23,7 +23,7 @@ function SignUp() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("/register", formData)
+      .post("https://tech-trova.vercel.app/register", formData)
       .then((response) => {
         if (response.data.user) {
           setFormData({

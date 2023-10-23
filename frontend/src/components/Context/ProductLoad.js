@@ -12,7 +12,7 @@ function ProductLoad({ children }) {
 
   useEffect(() => {
     axios
-      .get("/getAllProducts")
+      .get("https://tech-trova.vercel.app/getAllProducts")
       .then((response) => {
         console.log(response.data);
         setData(response.data);

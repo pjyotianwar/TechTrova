@@ -27,7 +27,7 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("/login", formData)
+      .post("https://tech-trova.vercel.app/login", formData)
       .then((response) => {
         if (response.data.user) {
           // console.log(response.data.user[0]);
