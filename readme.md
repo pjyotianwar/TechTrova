@@ -12,7 +12,7 @@ TechTrova is an electronics store website that allows users to view and purchase
 
 ## Live Link
 
-[Click here to visit TechTrova](<insert_live_link_here>)
+[Click here to visit TechTrova](<https://tech-trova-6uui.vercel.app>)
 
 ## How to Use
 
