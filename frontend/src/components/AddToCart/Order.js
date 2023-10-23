@@ -78,7 +78,7 @@ function Order() {
     const headers = {
       "Content-Type": "application/json",
     };
-    const response = await fetch("api/create-checkout-session", {
+    const response = await fetch("https://tech-trova.vercel.app/api/create-checkout-session", {
       method: "POST",
       headers: headers,
       body: JSON.stringify(body),
