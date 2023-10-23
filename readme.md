@@ -52,21 +52,21 @@ npm run dev
 
 ## Screenshots
 
-![Screenshot 1](Images/TechTrova1.png)
+![Screenshot 1](https://github.com/TechTrova/Images/TechTrova1.png)
 
-![Screenshot 2](Images/TechTrova2.png)
+![Screenshot 2](https://github.com/TechTrova/Images/TechTrova2.png)
 
-![Screenshot 3](Images/TechTrova3.png)
+![Screenshot 3](https://github.com/TechTrova/Images/TechTrova3.png)
 
-![Screenshot 4](Images/TechTrova4.png)
+![Screenshot 4](https://github.com/TechTrova/Images/TechTrova4.png)
 
-![Screenshot 5](Images/TechTrova5.png)
+![Screenshot 5](https://github.com/TechTrova/Images/TechTrova5.png)
 
-![Screenshot 6](Images/TechTrova6.png)
+![Screenshot 6](https://github.com/TechTrova/Images/TechTrova6.png)
 
-![Screenshot 7](Images/TechTrova7.png)
+![Screenshot 7](https://github.com/TechTrova/Images/TechTrova7.png)
 
-![Screenshot 8](Images/TechTrova8.png)
+![Screenshot 8](https://github.com/TechTrova/Images/TechTrova8.png)
 
 ## Contributing
 
